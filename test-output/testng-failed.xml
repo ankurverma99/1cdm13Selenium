@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Org.qsp.testngdemo.DemoList">
+      <class name="Org.qsp.testngdemo.AssertDemo">
         <methods>
-          <include name="m2"/>
+          <include name="m1"/>
         </methods>
-      </class> <!-- Org.qsp.testngdemo.DemoList -->
+      </class> <!-- Org.qsp.testngdemo.AssertDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

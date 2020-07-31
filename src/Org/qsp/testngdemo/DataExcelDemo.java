@@ -7,6 +7,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 public class DataExcelDemo {
@@ -21,6 +23,8 @@ public class DataExcelDemo {
 		WebElement password = driver.findElement(By.name("pwd"));
 		userName.sendKeys(un);
 		password.sendKeys(pw, Keys.ENTER);
+		WebDriverWait ww = new WebDriverWait(driver, 10);
+		ww.until(ExpectedConditions.titleContains("Enter"));
 		driver.close();
 	}
 

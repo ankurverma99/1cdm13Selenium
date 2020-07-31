@@ -1,61 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51536" started-at="2020-07-30T06:15:46Z" finished-at="2020-07-30T06:16:38Z">
+  <suite name="Suite" duration-ms="27595" started-at="2020-07-31T06:21:30Z" finished-at="2020-07-31T06:21:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51536" started-at="2020-07-30T06:15:46Z" finished-at="2020-07-30T06:16:38Z">
-      <class name="Org.qsp.testngdemo.DataExcelDemo">
-        <test-method status="PASS" signature="m1(java.lang.String, java.lang.String)[pri:0, instance:Org.qsp.testngdemo.DataExcelDemo@675d3402]" name="m1" duration-ms="17798" started-at="2020-07-30T06:15:48Z" data-provider="getData" finished-at="2020-07-30T06:16:05Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[manager]]>
-              </value>
-            </param>
-          </params>
+    <test name="Test" duration-ms="27595" started-at="2020-07-31T06:21:30Z" finished-at="2020-07-31T06:21:58Z">
+      <class name="Org.qsp.testngdemo.ParallelClass2">
+        <test-method status="PASS" signature="m2()[pri:0, instance:Org.qsp.testngdemo.ParallelClass2@51565ec2]" name="m2" duration-ms="27509" started-at="2020-07-31T06:21:30Z" finished-at="2020-07-31T06:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m2 -->
+      </class> <!-- Org.qsp.testngdemo.ParallelClass2 -->
+      <class name="Org.qsp.testngdemo.ParallelClass1">
+        <test-method status="PASS" signature="m1()[pri:0, instance:Org.qsp.testngdemo.ParallelClass1@675d3402]" name="m1" duration-ms="26757" started-at="2020-07-31T06:21:30Z" finished-at="2020-07-31T06:21:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="m1(java.lang.String, java.lang.String)[pri:0, instance:Org.qsp.testngdemo.DataExcelDemo@675d3402]" name="m1" duration-ms="16959" started-at="2020-07-30T06:16:05Z" data-provider="getData" finished-at="2020-07-30T06:16:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Alia]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ranbir]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m1 -->
-        <test-method status="PASS" signature="m1(java.lang.String, java.lang.String)[pri:0, instance:Org.qsp.testngdemo.DataExcelDemo@675d3402]" name="m1" duration-ms="15295" started-at="2020-07-30T06:16:22Z" data-provider="getData" finished-at="2020-07-30T06:16:38Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Ankit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[a@123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- m1 -->
-      </class> <!-- Org.qsp.testngdemo.DataExcelDemo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- Org.qsp.testngdemo.ParallelClass1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
