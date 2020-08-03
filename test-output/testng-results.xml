@@ -2,22 +2,46 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27595" started-at="2020-07-31T06:21:30Z" finished-at="2020-07-31T06:21:58Z">
+  <suite name="Suite" duration-ms="32608" started-at="2020-08-03T04:47:46Z" finished-at="2020-08-03T04:48:19Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="27595" started-at="2020-07-31T06:21:30Z" finished-at="2020-07-31T06:21:58Z">
-      <class name="Org.qsp.testngdemo.ParallelClass2">
-        <test-method status="PASS" signature="m2()[pri:0, instance:Org.qsp.testngdemo.ParallelClass2@51565ec2]" name="m2" duration-ms="27509" started-at="2020-07-31T06:21:30Z" finished-at="2020-07-31T06:21:58Z">
+    <test name="ChromeTest" duration-ms="20202" started-at="2020-08-03T04:47:46Z" finished-at="2020-08-03T04:48:07Z">
+      <class name="Org.qsp.testngdemo.ParallelBrowser">
+        <test-method status="PASS" signature="bm(java.lang.String)[pri:0, instance:Org.qsp.testngdemo.ParallelBrowser@6a4f787b]" name="bm" is-config="true" duration-ms="10459" started-at="2020-08-03T04:47:46Z" finished-at="2020-08-03T04:47:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m2 -->
-      </class> <!-- Org.qsp.testngdemo.ParallelClass2 -->
-      <class name="Org.qsp.testngdemo.ParallelClass1">
-        <test-method status="PASS" signature="m1()[pri:0, instance:Org.qsp.testngdemo.ParallelClass1@675d3402]" name="m1" duration-ms="26757" started-at="2020-07-31T06:21:30Z" finished-at="2020-07-31T06:21:57Z">
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="m()[pri:0, instance:Org.qsp.testngdemo.ParallelBrowser@6a4f787b]" name="m" duration-ms="9673" started-at="2020-08-03T04:47:57Z" finished-at="2020-08-03T04:48:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- m1 -->
-      </class> <!-- Org.qsp.testngdemo.ParallelClass1 -->
-    </test> <!-- Test -->
+        </test-method> <!-- m -->
+      </class> <!-- Org.qsp.testngdemo.ParallelBrowser -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="32608" started-at="2020-08-03T04:47:46Z" finished-at="2020-08-03T04:48:19Z">
+      <class name="Org.qsp.testngdemo.ParallelBrowser">
+        <test-method status="PASS" signature="bm(java.lang.String)[pri:0, instance:Org.qsp.testngdemo.ParallelBrowser@55f3ddb1]" name="bm" is-config="true" duration-ms="14302" started-at="2020-08-03T04:47:46Z" finished-at="2020-08-03T04:48:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bm -->
+        <test-method status="PASS" signature="m()[pri:0, instance:Org.qsp.testngdemo.ParallelBrowser@55f3ddb1]" name="m" duration-ms="18243" started-at="2020-08-03T04:48:01Z" finished-at="2020-08-03T04:48:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m -->
+      </class> <!-- Org.qsp.testngdemo.ParallelBrowser -->
+    </test> <!-- FirefoxTest -->
   </suite> <!-- Suite -->
 </testng-results>

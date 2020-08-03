@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite" thread-count="5" parallel="classes">
-	<test thread-count="5" name="Test">
+<suite name="Suite" parallel="tests" thread-count="5">
+	<test thread-count="5" name="FirefoxTest">
+		<parameter name="browser" value="firefox"></parameter>
 		<classes>
-			<class name="Org.qsp.testngdemo.ParallelClass1" />
-			<class name="Org.qsp.testngdemo.ParallelClass2" />
+			<class name="Org.qsp.testngdemo.ParallelBrowser" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="ChromeTest">
+		<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="Org.qsp.testngdemo.ParallelBrowser" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
